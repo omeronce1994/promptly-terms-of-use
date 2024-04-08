@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-export interface TermsPlacholders {
-  appName: String
-  contactEmail: String,
-  jurisdiction: String
-}
+export const appName = 'PromptBoost'
+export const contactEmail = 'omeronce1995@gmail.com'
+export const effectiveDate = new Date(2024, 3, 8)
+export const dateFormat = 'fullDate'
 
 @Component({
   selector: 'app-root',
@@ -16,10 +15,4 @@ export interface TermsPlacholders {
 })
 export class AppComponent {
   title = 'promptly-terms-of-use';
-
-  placeHolders: TermsPlacholders = {
-    appName: 'PromptBooster',
-    contactEmail: 'omeronce1995@gmail.com',
-    jurisdiction: 'Israel'
-  }
 }
