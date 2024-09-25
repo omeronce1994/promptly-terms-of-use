@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 
 export const appName = 'PromptBoost'
 export const contactEmail = 'omeronce1995@gmail.com'
-export const effectiveDate = new Date(2024, 3, 8)
+export const effectiveDate = new Date(2024, 8, 25)
 export const dateFormat = 'fullDate'
 
 @Component({
